@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="303" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="1119ee77-9048-427b-bd09-69911270dd01" />
+					<attribute id="Name" type="LSString" value="FallenStar_Cons_Wifi_Healing_Potion_Small"/>
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="8e660fd9-489d-42ff-a762-e4392e826666"/>
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="b98412cd-911a-212b-8804-90cea269b90d" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="e3541832-307a-4e23-49fc-a72544220d42" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h8936846fg9f0fg4dbagb6d8g5cdfb6658e42" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_Potion_Healing_A" />
+					<attribute id="Stats" type="FixedString" value="FallenStar_Wifi_Healing_Potion_Small" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="h0450e8edgebafg45c4g8aa0ge91615a9f1f6" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h3d678bd2gb1a6g4ee0g8726ge6a5c7fdcd66" version="4" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h5b4a5cffg1852g4c2cga49ag6badba0e1ee8" version="5" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.193266 0 -0.124746" />
+									<attribute id="Max" type="fvec3" value="0.193266 0.3622616 0.124746" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.193266 0 -0.124746" />
+									<attribute id="Max" type="fvec3" value="0.193266 0.3622616 0.124746" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.193266 0 -0.124746" />
+									<attribute id="Max" type="fvec3" value="0.193266 0.3622616 0.124746" />
+									<attribute id="Radius" type="float" value="0.1463913" />
+									<attribute id="Height" type="float" value="0.3622616" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="StatsId" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="2f630ddb-ccea-489b-a392-95be277cd589" />
+					<attribute id="Name" type="LSString" value="FallenStar_Cons_Wifi_Healing_Potion_Greater"/>
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="8e660fd9-489d-42ff-a762-e4392e826666"/>
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="103f27e3-226b-2ce9-e710-e1e81f01b34b" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="e3541832-307a-4e23-49fc-a72544220d42" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h8a865fdbgea46g4d56g858agfe803f339297" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_Potion_Healing_A_Greater" />
+					<attribute id="Stats" type="FixedString" value="FallenStar_Wifi_Healing_Potion_Greater" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="h0450e8edgebafg45c4g8aa0ge91615a9f1f6" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h2de91147g03bag49ccg8971g74ff17466e0f" version="4" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h8e1da616g1237g42cbga4bfgb92af9049c6b" version="5" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.193266 0 -0.124746" />
+									<attribute id="Max" type="fvec3" value="0.193266 0.3622616 0.124746" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.193266 0 -0.124746" />
+									<attribute id="Max" type="fvec3" value="0.193266 0.3622616 0.124746" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.193266 0 -0.124746" />
+									<attribute id="Max" type="fvec3" value="0.193266 0.3622616 0.124746" />
+									<attribute id="Radius" type="float" value="0.1463913" />
+									<attribute id="Height" type="float" value="0.3622616" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="StatsId" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="d0da8204-73a7-4684-99bd-9733986a9f56" />
+					<attribute id="Name" type="LSString" value="FallenStar_Cons_Wifi_Healing_Potion_Superior"/>
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="8e660fd9-489d-42ff-a762-e4392e826666"/>
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="fa6656f2-679d-e765-a5a8-2a3d16a291dc" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="e3541832-307a-4e23-49fc-a72544220d42" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h58ec5218g361eg4d95gb47cg5ad32a5a44c0" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_Potion_Healing_A_Superior" />
+					<attribute id="Stats" type="FixedString" value="FallenStar_Wifi_Healing_Potion_Superior"/>
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="h0450e8edgebafg45c4g8aa0ge91615a9f1f6" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h4403dc38g97abg4a51g9ec0g61f1bcc11e45" version="4" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="hcf6020a2gdfdag43fdg9e75g02e1739cbca8" version="5" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.193266 0 -0.124746" />
+									<attribute id="Max" type="fvec3" value="0.193266 0.3622616 0.124746" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.193266 0 -0.124746" />
+									<attribute id="Max" type="fvec3" value="0.193266 0.3622616 0.124746" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.193266 0 -0.124746" />
+									<attribute id="Max" type="fvec3" value="0.193266 0.3622616 0.124746" />
+									<attribute id="Radius" type="float" value="0.1463913" />
+									<attribute id="Height" type="float" value="0.3622616" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="StatsId" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="7c2ef1ca-8b5a-4520-a31b-39c9d603fcb3" />
+					<attribute id="Name" type="LSString" value="FallenStar_Cons_Wifi_Healing_Potion_Supreme"/>
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="8e660fd9-489d-42ff-a762-e4392e826666"/>
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="a93bcc13-e31b-f6a6-7076-e64fe7771d9e" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="e3541832-307a-4e23-49fc-a72544220d42" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hdd99fa20g17a1g4048gbceagb09e4a7871c7" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_Potion_Healing_A_Supreme" />
+					<attribute id="Stats" type="FixedString" value="FallenStar_Wifi_Healing_Potion_Supreme" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="OnUseDescription" type="TranslatedString" handle="h0450e8edgebafg45c4g8aa0ge91615a9f1f6" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h84bd437bg163dg4d63gb13agcd70375245e6" version="4" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h35bcaeb6ge7eeg4853ga884g03be6d2b8d0c" version="5" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.193266 0 -0.124746" />
+									<attribute id="Max" type="fvec3" value="0.193266 0.3622616 0.124746" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.193266 0 -0.124746" />
+									<attribute id="Max" type="fvec3" value="0.193266 0.3622616 0.124746" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.193266 0 -0.124746" />
+									<attribute id="Max" type="fvec3" value="0.193266 0.3622616 0.124746" />
+									<attribute id="Radius" type="float" value="0.1463913" />
+									<attribute id="Height" type="float" value="0.3622616" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="StatsId" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

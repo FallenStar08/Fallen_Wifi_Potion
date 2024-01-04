@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="h8936846fg9f0fg4dbagb6d8g5cdfb6658e42" version="1">Small potion of the Wye Fey</content>
+	<content contentuid="h3d678bd2gb1a6g4ee0g8726ge6a5c7fdcd66" version="1">Uses any available small healing potion in your party's inventory</content>
+	<content contentuid="h80012058gcbd4g4d3ag9035gcb7c190f929c" version="1">Available healing potions :</content>
+	<content contentuid="h5b4a5cffg1852g4c2cga49ag6badba0e1ee8" version="1">Description to update for small wye fey</content>
+
+	<content contentuid="h8a865fdbgea46g4d56g858agfe803f339297" version="1">Greater potion of the Wye Fey</content>
+	<content contentuid="h2de91147g03bag49ccg8971g74ff17466e0f" version="1">Uses any available greater healing potion in your party's inventory</content>
+	<content contentuid="hff823f08g801bg467cg9f22g39bff9cbd8f6" version="1">Available greater healing potions :</content>
+	<content contentuid="h8e1da616g1237g42cbga4bfgb92af9049c6b" version="1">Description to update for greater wye fey</content>
+
+	<content contentuid="h58ec5218g361eg4d95gb47cg5ad32a5a44c0" version="1">Superior potion of the Wye Fey</content>
+	<content contentuid="h4403dc38g97abg4a51g9ec0g61f1bcc11e45" version="1">Uses any available superior healing potion in your party's inventory</content>
+	<content contentuid="h5267e52eg6250g40d5ga24fg32e6868dc59a" version="1">Available superior healing potions :</content>
+	<content contentuid="hcf6020a2gdfdag43fdg9e75g02e1739cbca8" version="1">Description to update for superior wye fey</content>
+
+	<content contentuid="hdd99fa20g17a1g4048gbceagb09e4a7871c7" version="1">Supreme potion of the Wye Fey</content>
+	<content contentuid="h84bd437bg163dg4d63gb13agcd70375245e6" version="1">Uses any available supreme healing potion in your party's inventory</content>
+	<content contentuid="h66a6a882g8715g4c4fg9c6fg02bf264d591e" version="1">Available supreme healing potions :</content>
+	<content contentuid="h35bcaeb6ge7eeg4853ga884g03be6d2b8d0c" version="1">Description to update for supreme wye fey</content>
+</contentList>

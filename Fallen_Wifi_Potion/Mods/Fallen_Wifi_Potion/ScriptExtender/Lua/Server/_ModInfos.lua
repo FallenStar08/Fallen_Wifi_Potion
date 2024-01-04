@@ -1,0 +1,1 @@
+FOLDER_NAME = "Fall_Wifi_Potion"; MOD_NAME=FOLDER_NAME

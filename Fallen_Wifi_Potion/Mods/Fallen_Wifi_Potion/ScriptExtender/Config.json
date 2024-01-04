@@ -1,0 +1,5 @@
+{
+    "RequiredVersion": 10,
+    "ModTable": "Fallen_Wifi_Potion",
+    "FeatureFlags": ["Lua"]
+}
