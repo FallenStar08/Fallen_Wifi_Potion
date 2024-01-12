@@ -119,7 +119,7 @@ Ext.Osiris.RegisterListener("LevelGameplayStarted", 2, "after", function(level, 
 end)
 
 Ext.Osiris.RegisterListener("TemplateAddedTo", 4, "after", function(root, item, inventoryHolder, addType)
-    if Osi.IsTagged(GUID(item), healingPotionTag) then
+    if Osi.IsPartyMember(inventoryHolder,0) == 1 and Osi.IsTagged(GUID(item), healingPotionTag) == 1 then
         getPartyPotions()
         updateDescriptionForAllPotionTypes()
     end
