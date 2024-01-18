@@ -1,0 +1,1 @@
+MOD_INFO = ModInfo:new("Fall_Wifi_Potion","Fall_Wifi_Potion")

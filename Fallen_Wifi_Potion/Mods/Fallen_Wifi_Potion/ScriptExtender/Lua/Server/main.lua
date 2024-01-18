@@ -1,10 +1,5 @@
 --- @alias PotionType string |"small"|"greater"|"superior"|"supreme"
 
-
-Ext.Require("Server/_ModInfos.lua")
-Ext.Require("Shared/_Globals.lua")
-Ext.Require("Shared/_Utils.lua")
-
 local healingPotionTag = "1879a93d-2edf-4f54-85dd-81a3724d677f"
 --local stupidFuckingIteratingPieceOfShitFunctionIsDone = false
 local potions = {}
@@ -98,6 +93,11 @@ local function drinkHealingPotion(drinker, potion)
         end
     end
     updatePotionDescription(potion)
+end
+
+local function findModPotions()
+
+
 end
 
 -- -------------------------------------------------------------------------- --
