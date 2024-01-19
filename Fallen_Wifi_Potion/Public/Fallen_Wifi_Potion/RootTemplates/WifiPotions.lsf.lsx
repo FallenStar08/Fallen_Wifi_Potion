@@ -20,6 +20,7 @@
 					<attribute id="OnUseDescription" type="TranslatedString" handle="h0450e8edgebafg45c4g8aa0ge91615a9f1f6" version="1" />
 					<attribute id="Description" type="TranslatedString" handle="h3d678bd2gb1a6g4ee0g8726ge6a5c7fdcd66" version="4" />
 					<attribute id="TechnicalDescription" type="TranslatedString" handle="h5b4a5cffg1852g4c2cga49ag6badba0e1ee8" version="5" />
+					<attribute id="maxStackAmount" type="int32" value="999999"/>
 					<children>
 						<node id="Bounds">
 							<children>
@@ -59,6 +60,34 @@
 											<attribute id="Conditions" type="LSString" value="" />
 											<attribute id="StatsId" type="FixedString" value="" />
 											<attribute id="Consume" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="a557ab71-77f3-4b0c-8174-f605e51c90c7" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="LifeTime" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="ProjectileSpell" />
+													<attribute id="Type" type="int32" value="9" />
+													<attribute id="Value" type="LSString" value="Projectile_Potion_Destroy_Healing" />
+												</node>
+											</children>
 										</node>
 									</children>
 								</node>
@@ -82,6 +111,7 @@
 					<attribute id="OnUseDescription" type="TranslatedString" handle="h0450e8edgebafg45c4g8aa0ge91615a9f1f6" version="1" />
 					<attribute id="Description" type="TranslatedString" handle="h2de91147g03bag49ccg8971g74ff17466e0f" version="4" />
 					<attribute id="TechnicalDescription" type="TranslatedString" handle="h8e1da616g1237g42cbga4bfgb92af9049c6b" version="5" />
+					<attribute id="maxStackAmount" type="int32" value="999999"/>
 					<children>
 						<node id="Bounds">
 							<children>
@@ -121,6 +151,34 @@
 											<attribute id="Conditions" type="LSString" value="" />
 											<attribute id="StatsId" type="FixedString" value="" />
 											<attribute id="Consume" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="a557ab71-77f3-4b0c-8174-f605e51c90c7" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="LifeTime" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="ProjectileSpell" />
+													<attribute id="Type" type="int32" value="9" />
+													<attribute id="Value" type="LSString" value="Projectile_Potion_Destroy_Healing_Greater" />
+												</node>
+											</children>
 										</node>
 									</children>
 								</node>
@@ -144,6 +202,7 @@
 					<attribute id="OnUseDescription" type="TranslatedString" handle="h0450e8edgebafg45c4g8aa0ge91615a9f1f6" version="1" />
 					<attribute id="Description" type="TranslatedString" handle="h4403dc38g97abg4a51g9ec0g61f1bcc11e45" version="4" />
 					<attribute id="TechnicalDescription" type="TranslatedString" handle="hcf6020a2gdfdag43fdg9e75g02e1739cbca8" version="5" />
+					<attribute id="maxStackAmount" type="int32" value="999999"/>
 					<children>
 						<node id="Bounds">
 							<children>
@@ -183,6 +242,34 @@
 											<attribute id="Conditions" type="LSString" value="" />
 											<attribute id="StatsId" type="FixedString" value="" />
 											<attribute id="Consume" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="a557ab71-77f3-4b0c-8174-f605e51c90c7" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="LifeTime" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="ProjectileSpell" />
+													<attribute id="Type" type="int32" value="9" />
+													<attribute id="Value" type="LSString" value="Projectile_Potion_Destroy_Healing_Superior" />
+												</node>
+											</children>
 										</node>
 									</children>
 								</node>
@@ -206,6 +293,7 @@
 					<attribute id="OnUseDescription" type="TranslatedString" handle="h0450e8edgebafg45c4g8aa0ge91615a9f1f6" version="1" />
 					<attribute id="Description" type="TranslatedString" handle="h84bd437bg163dg4d63gb13agcd70375245e6" version="4" />
 					<attribute id="TechnicalDescription" type="TranslatedString" handle="h35bcaeb6ge7eeg4853ga884g03be6d2b8d0c" version="5" />
+					<attribute id="maxStackAmount" type="int32" value="999999"/>
 					<children>
 						<node id="Bounds">
 							<children>
@@ -250,6 +338,35 @@
 								</node>
 							</children>
 						</node>
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="a557ab71-77f3-4b0c-8174-f605e51c90c7" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="LifeTime" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="ProjectileSpell" />
+													<attribute id="Type" type="int32" value="9" />
+													<attribute id="Value" type="LSString" value="Projectile_Potion_Destroy_Healing_Supreme" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+
 					</children>
 				</node>
 			</children>
