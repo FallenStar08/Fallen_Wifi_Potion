@@ -9,11 +9,11 @@ local wifiPotions = {}
 -- --Actually not a queue.
 -- local initQueue = {}
 
-local thrownMatches={
-    ["1119ee77-9048-427b-bd09-69911270dd01"]="small",
-    ["2f630ddb-ccea-489b-a392-95be277cd589"]="greater",
-    ["d0da8204-73a7-4684-99bd-9733986a9f56"]="superior",
-    ["7c2ef1ca-8b5a-4520-a31b-39c9d603fcb3"]="supreme"
+local thrownMatches = {
+    ["1119ee77-9048-427b-bd09-69911270dd01"] = "small",
+    ["2f630ddb-ccea-489b-a392-95be277cd589"] = "greater",
+    ["d0da8204-73a7-4684-99bd-9733986a9f56"] = "superior",
+    ["7c2ef1ca-8b5a-4520-a31b-39c9d603fcb3"] = "supreme"
 }
 
 --- Defines different types of healing potions.
@@ -65,9 +65,9 @@ local healingPotionTypes = {
 ---Function to populate our potions table by iterating over the inventory&sub inventories of each party member
 local function getPartyPotions()
     potions = {}
-
     for _, player in pairs(SQUADIES) do
-        potions = Table.MergeSets(potions, DeepIterateInventory(Ext.Entity.Get(player), { healingPotionTag }))
+        potions = Table.MergeSets(potions,
+            DeepIterateInventory(Ext.Entity.Get(player), { FilterByTag({ healingPotionTag }) }))
     end
 end
 
@@ -75,9 +75,9 @@ end
 local function findWifiPotions()
     for _, player in pairs(SQUADIES) do
         wifiPotions = Table.MergeSets(wifiPotions,
-            DeepIterateInventory(Ext.Entity.Get(player), nil,
+            DeepIterateInventory(Ext.Entity.Get(player), { FilterByTemplate(
                 { healingPotionTypes.small.template, healingPotionTypes.greater.template, healingPotionTypes.superior
-                    .template, healingPotionTypes.supreme.template }))
+                    .template, healingPotionTypes.supreme.template }) }))
     end
 end
 
@@ -167,9 +167,9 @@ local function start()
         timeBeforeLogic = 666
     end
     DelayedCall(timeBeforeLogic, function()
-    findWifiPotions()
-    ---_D(wifiPotions)
-    updateDescriptionForAllPotionTypes()
+        findWifiPotions()
+        ---_D(wifiPotions)
+        updateDescriptionForAllPotionTypes()
     end)
 end
 
@@ -204,12 +204,13 @@ end)
 
 Ext.Osiris.RegisterListener("CharacterLeftParty", 1, "after", GetSquadies)
 
-Ext.Osiris.RegisterListener("OnThrown",7,"after",function(thrownObject,thrownObjectTemplate,thrower,storyActionID,x,y,z)
-    local result = thrownMatches[GUID(thrownObjectTemplate)]
-    if result then
-        drinkHealingPotion(thrower,healingPotionTypes[result],true)
-    end
-end)
+Ext.Osiris.RegisterListener("OnThrown", 7, "after",
+    function(thrownObject, thrownObjectTemplate, thrower, storyActionID, x, y, z)
+        local result = thrownMatches[GUID(thrownObjectTemplate)]
+        if result then
+            drinkHealingPotion(thrower, healingPotionTypes[result], true)
+        end
+    end)
 
 ---Debug
 Ext.Events.ResetCompleted:Subscribe(function()
