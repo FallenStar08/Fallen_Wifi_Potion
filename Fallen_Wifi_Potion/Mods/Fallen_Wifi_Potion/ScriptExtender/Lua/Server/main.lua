@@ -1,13 +1,9 @@
 --- @alias PotionType string |"small"|"greater"|"superior"|"supreme"
 
 local healingPotionTag = "1879a93d-2edf-4f54-85dd-81a3724d677f"
---local stupidFuckingIteratingPieceOfShitFunctionIsDone = false
 local potions = {}
-
 local wifiPotions = {}
--- local drinkerQueue = {}
--- --Actually not a queue.
--- local initQueue = {}
+
 
 local thrownMatches = {
     ["1119ee77-9048-427b-bd09-69911270dd01"] = "small",
