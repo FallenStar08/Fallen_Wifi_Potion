@@ -202,9 +202,11 @@ Ext.Osiris.RegisterListener("CharacterLeftParty", 1, "after", GetSquadies)
 
 Ext.Osiris.RegisterListener("OnThrown", 7, "after",
     function(thrownObject, thrownObjectTemplate, thrower, storyActionID, x, y, z)
-        local result = thrownMatches[GUID(thrownObjectTemplate)]
-        if result then
-            drinkHealingPotion(thrower, healingPotionTypes[result], true)
+        if Osi.IsPartyMember(thrower,1) == 1 then
+            local result = thrownMatches[GUID(thrownObjectTemplate)]
+            if result then
+                drinkHealingPotion(thrower, healingPotionTypes[result], true)
+            end
         end
     end)
 
